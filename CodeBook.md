@@ -71,7 +71,7 @@ tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
-tBodyAcc-std()-Z
+tBodyAcc-std()-Z 
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
 tGravityAcc-mean()-Z
