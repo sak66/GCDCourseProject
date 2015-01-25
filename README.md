@@ -40,13 +40,24 @@ and summaries calculated, along with units, and other relevant information.
 run_analysis.R:
 ===============
 
+Some background:
+
+In the original data set many sensor data variables associated with movement were collected 
+(via smartphone accelerometer and gyroscope) across a range of physical activities
+carried out by various subjects (trial participants). Some data such as mean and standard 
+deviation for each of the sensor measured data was calculated and also associated.
+ 
+In this project the calculated (mean and standard deviation) subset of the data was 
+extracted for each activity carried out by a subject. The data was then averaged for reach
+subject and activity. 
+
 This R script functions as follows:
 
- 1. Merges the training and the test sets to create one data set.
+ 1. Merges the original training and the test sets to create one data set.
  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
- 3. Substitutes (Uses) descriptive activity names to name the activities in the data set
- 4. Substitutes (Appropriately labels) the data set with descriptive variable names.
+ 3. Substitute the activity codes with descriptive activity names.
+ 4. Substitute the coded variable names in the data set with descriptive variable names.
  5. Using the data (as processed above) creates an independent tidy data set with
-    the average of each variable for each activity and each subject.
+    the average of each extracted variable (original mean and std values) for each activity and each subject.
     (Please see CodeBook.md for more information)
    
