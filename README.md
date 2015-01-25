@@ -48,7 +48,7 @@ carried out by various subjects (trial participants). Some data such as mean and
 deviation for each of the sensor measured data was calculated and also associated.
  
 In this project the calculated (mean and standard deviation) subset of the data was 
-extracted for each activity carried out by a subject. The data was then averaged for reach
+extracted each time an activity was carried out by a subject. The data was then averaged for reach
 subject and activity. 
 
 This R script functions as follows:
