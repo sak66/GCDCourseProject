@@ -67,9 +67,9 @@ tBodyAcc-mean()-X  : The mean of the original data "time domain mean of body acc
 					     
 Note: following are described similarly by analogy to above (std is standard deviation):
 					        
-tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
-tBodyAcc-std()-X  
+tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
 tGravityAcc-mean()-X
